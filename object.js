@@ -28,3 +28,31 @@ console.log(point.x + point.y)
 
 console.log(point['x'])
 
+delete point.x
+
+console.log(point)
+
+//object compare 
+
+var objectCompare = {
+    a:20,
+    b:10
+}
+var objectComare2 ={
+    a:20,
+    b:10
+
+}
+
+console.log(objectCompare==objectComare2)
+
+if(objectCompare.a==objectComare2.a && objectCompare.b==objectComare2.b){
+    console.log(true)
+
+}
+else{
+    console.log(false)
+}
+
+//compare by json
+console.log(JSON.stringify(objectCompare)== JSON.stringify(objectComare2))
