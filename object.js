@@ -56,3 +56,28 @@ else{
 
 //compare by json
 console.log(JSON.stringify(objectCompare)== JSON.stringify(objectComare2))
+
+//iterate 
+console.log('a' in objectCompare)
+
+for (var i in point){
+    console.log(i + ': ' + point[i])
+}
+
+//method of object 
+console.log(Object.keys(point))
+
+console.log(Object.values(point))
+
+//entries method
+
+console.log(Object.entries(point))
+
+//create object 
+
+var objectCreate = Object.assign({},obj1)
+
+objectCreate.x = 100
+
+console.log(obj1)
+console.log(objectCreate)
