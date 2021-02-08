@@ -15,5 +15,4 @@ var msg = gm('Firoz Kabir')
 console.log(msg)
 console.log(gn('Twinkle cats'))
 console.log(msg)
-console.log(hello('Segufa Taranjum
-'))
+console.log(hello('Segufa Taranjum'))
