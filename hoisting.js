@@ -22,3 +22,17 @@ newPrint(45)
  //a = 100
  //a =100
  // newPrint = ref 
+
+ abc()
+
+ function abc(){
+     console.log(' I Am abc function')
+ }
+
+ // function expretion 
+
+ var newAbc = function (){
+     console.log('I Am new abc Function')
+ }
+
+ newAbc()
