@@ -4,7 +4,13 @@ var rect = {
 
     draw: function(){
         console.log('i am a rectangle')
+        console.log('My width is '+ this.width)
+        console.log('My height is '+ this.height)
     }
 }
+
+rect.draw()
+
+rect.width=100
 
 rect.draw()
